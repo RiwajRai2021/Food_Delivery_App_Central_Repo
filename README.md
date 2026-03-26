@@ -23,8 +23,9 @@ The Food Delivery App is a full‑stack platform that allows users to browse res
 **Scope: Solo project – Designed and developed full frontend and backend**
 
 🎥 Demo Video
+https://drive.google.com/file/d/132dC2QZUI6BV5VM92i99i5hwf-ZC0jFS/view?usp=sharing
 
 ![App Screenshot](https://github.com/RiwajRai2021/Food_Delivery_App_Central_Repo/blob/main/Screenshot%202026-03-26%20004002.png)
 
-https://drive.google.com/file/d/132dC2QZUI6BV5VM92i99i5hwf-ZC0jFS/view?usp=sharing
+
 
