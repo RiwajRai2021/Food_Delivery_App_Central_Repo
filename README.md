@@ -51,13 +51,13 @@ MySQL
 Git  
 <br>
 # 📥 <b>Clone All Repositories</b><br>
-git clone https://github.com/RiwajRai2021/Food_Delivery_App_Central_Repo.git
-git clone https://github.com/RiwajRai2021/Order_Repository.git
-git clone https://github.com/RiwajRai2021/RestaurantListing_Repository.git
-git clone https://github.com/RiwajRai2021/UserInfo_Repository.git
-git clone https://github.com/RiwajRai2021/Eureka_FD.git
-git clone https://github.com/RiwajRai2021/Food-Catalogue.git
-git clone https://github.com/RiwajRai2021/Food-Delivery-App-FE.git
+git clone https://github.com/RiwajRai2021/Food_Delivery_App_Central_Repo.git<br>
+git clone https://github.com/RiwajRai2021/Order_Repository.git<br>
+git clone https://github.com/RiwajRai2021/RestaurantListing_Repository.git<br>
+git clone https://github.com/RiwajRai2021/UserInfo_Repository.git<br>
+git clone https://github.com/RiwajRai2021/Eureka_FD.git<br>
+git clone https://github.com/RiwajRai2021/Food-Catalogue.git<br>
+git clone https://github.com/RiwajRai2021/Food-Delivery-App-FE.git<br>
 
 
 
