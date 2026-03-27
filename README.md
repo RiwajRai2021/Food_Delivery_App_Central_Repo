@@ -89,9 +89,6 @@ cp Food-Delivery-App-FE/.env.example Food-Delivery-App-FE/.env
 <b>Food Catalogue Service</b>:http://localhost:9092
 <br>
 ## Tech Stack
-⚙️
-
-
 
 <br>
 
