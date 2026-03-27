@@ -110,7 +110,7 @@ MySQL,
 MongoDB
 
 <b>Containerization</b>:
-Docker
+Docker,
 Docker Images for each microservice
 
 <b>CI/CD</b>:
@@ -121,11 +121,11 @@ AWS EC2 (Compute)
 AWS RDS (MySQL Database)
 
 <b>Build Tools</b>:
-Maven
+Maven,
 Node.js / npm
 
 <b>Other Tools</b>:
-Postman (API testing)
+Postman (API testing),
 Git & GitHub (version control)
 
 
