@@ -60,7 +60,7 @@ git clone https://github.com/RiwajRai2021/Food-Catalogue.git<br>
 git clone https://github.com/RiwajRai2021/Food-Delivery-App-FE.git<br>
 
 # 🌱<b> Set up Environment Variables</b><br>
-User Info Service
+<b>User Info Service</b><br>
 cp UserInfo_Repository/.env.example UserInfo_Repository/.env
 
 Order Service
