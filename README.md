@@ -60,7 +60,7 @@ git clone https://github.com/RiwajRai2021/Food-Catalogue.git<br>
 git clone https://github.com/RiwajRai2021/Food-Delivery-App-FE.git<br>
 
 # 🌱<b> Set up Environment Variables</b><br>
-# Copy environment files for each service
+_Copy environment files for each service_
 <b>User Info Service</b><br>
 cp UserInfo_Repository/.env.example UserInfo_Repository/.env
 
