@@ -85,6 +85,52 @@ cp Food-Delivery-App-FE/.env.example Food-Delivery-App-FE/.env
 <b>Order Service</b>: http://localhost:9094<br>
 <b>Restaurant Service</b>:http://localhost:9091<br>
 <b>Food Catalogue Service</b>:http://localhost:9092
+<br>
+# ⚙️Tech Stack<br>
+
+Frontend:
+Angular
+TypeScript
+HTML/CSS
+
+Backend Microservices:
+Java
+Spring Boot
+Spring Web
+Spring Data JPA
+Spring Cloud Netflix Eureka
+
+Architecture:
+Microservices Architecture
+Service Discovery (Eureka Server)
+REST API Communication
+
+Database:
+MySQL
+
+Containerization:
+Docker
+Docker Images for each microservice
+
+CI/CD:
+Jenkins (Build and Deployment Automation)
+
+Cloud Infrastructure:
+AWS ECR (Container Registry)
+AWS EKS (Kubernetes Cluster)
+AWS EC2 (Compute)
+AWS RDS (MySQL Database)
+AWS S3 (Static Storage)
+
+Build Tools:
+Maven
+Node.js / npm
+
+Other Tools:
+Postman (API testing)
+Git & GitHub (version control)
+
+
 
 
 
