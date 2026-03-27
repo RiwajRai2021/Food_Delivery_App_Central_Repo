@@ -41,10 +41,10 @@ https://drive.google.com/file/d/132dC2QZUI6BV5VM92i99i5hwf-ZC0jFS/view?usp=shari
 - [Contributing](#contributing)
 - [License](#license)
 
-🚀<h2><b>Quick Start Guide</b><h2>   
+🚀<h2>Quick Start Guide<h2>   
 Get the Food Delivery App running locally in just a few minutes!
 
-<h3><b>Prerequisites</b></h3>
+<h3>Prerequisites</h3>
 Java 17+  
 Node.js & Angular CLI  
 MySQL  
