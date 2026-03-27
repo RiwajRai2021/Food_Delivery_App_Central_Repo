@@ -26,6 +26,23 @@ The Food Delivery App is a full‑stack platform that allows users to browse res
 https://drive.google.com/file/d/132dC2QZUI6BV5VM92i99i5hwf-ZC0jFS/view?usp=sharing
 
 ![App Screenshot](https://github.com/RiwajRai2021/Food_Delivery_App_Central_Repo/blob/main/Screenshot%202026-03-26%20004002.png)
+<br><br>
+
+# 📑 Table of Contents
+
+- [Tech Stack](#tech-stack)
+- [Architecture](#architecture)
+- [Data Flow Diagram](#data-flow-diagram)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Clone the Repository](#clone-the-repository)
+  - [Set Up Environment Variables](#set-up-environment-variables)
+- [Environment Variables Setup](#environment-variables-setup)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+
 
 
 
