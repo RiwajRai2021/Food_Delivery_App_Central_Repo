@@ -41,6 +41,32 @@ https://drive.google.com/file/d/132dC2QZUI6BV5VM92i99i5hwf-ZC0jFS/view?usp=shari
 - [Contributing](#contributing)
 - [License](#license)
 
+# 🚀 Quick Start Guide
+Get your Food Delivery App running locally in just a few minutes!
+
+<br>
+🔧 Prerequisites
+Make sure the following are installed on your machine:
+
+Java 17+
+
+Node.js & Angular CLI
+
+MySQL
+
+Git
+
+<br>
+📥 Clone All Repositories
+git clone https://github.com/RiwajRai2021/Food_Delivery_App_Central_Repo.git
+git clone https://github.com/RiwajRai2021/Order_Repository.git
+git clone https://github.com/RiwajRai2021/RestaurantListing_Repository.git
+git clone https://github.com/RiwajRai2021/UserInfo_Repository.git
+git clone https://github.com/RiwajRai2021/Eureka_FD.git
+git clone https://github.com/RiwajRai2021/Food-Catalogue.git
+git clone https://github.com/RiwajRai2021/Food-Delivery-App-FE.git
+
+
 
 
 
