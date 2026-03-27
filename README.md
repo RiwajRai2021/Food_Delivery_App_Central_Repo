@@ -93,40 +93,40 @@ Angular
 TypeScript
 HTML/CSS
 
-Backend Microservices:
+<b>Backend Microservices</b>:
 Java
 Spring Boot
 Spring Web
 Spring Data JPA
 Spring Cloud Netflix Eureka
 
-Architecture:
+<b>Architecture</b>:
 Microservices Architecture
 Service Discovery (Eureka Server)
 REST API Communication
 
-Database:
+<b>Database</b>:
 MySQL
 
-Containerization:
+</b>Containerization</b>:
 Docker
 Docker Images for each microservice
 
-CI/CD:
+<b>CI/CD</b>:
 Jenkins (Build and Deployment Automation)
 
-Cloud Infrastructure:
+<bCloud Infrastructure</b>:
 AWS ECR (Container Registry)
 AWS EKS (Kubernetes Cluster)
 AWS EC2 (Compute)
 AWS RDS (MySQL Database)
 AWS S3 (Static Storage)
 
-Build Tools:
+</b>Build Tools</b>:
 Maven
 Node.js / npm
 
-Other Tools:
+</b>Other Tools</b>:
 Postman (API testing)
 Git & GitHub (version control)
 
