@@ -107,6 +107,7 @@ REST API Communication
 
 <b>Database</b>:
 MySQL
+MongoDB
 
 </b>Containerization</b>:
 Docker
@@ -115,18 +116,18 @@ Docker Images for each microservice
 <b>CI/CD</b>:
 Jenkins (Build and Deployment Automation)
 
-<bCloud Infrastructure</b>:
+<b>Cloud Infrastructure</b>:
 AWS ECR (Container Registry)
 AWS EKS (Kubernetes Cluster)
 AWS EC2 (Compute)
 AWS RDS (MySQL Database)
 AWS S3 (Static Storage)
 
-</b>Build Tools</b>:
+<b>Build Tools</b>:
 Maven
 Node.js / npm
 
-</b>Other Tools</b>:
+<b>Other Tools</b>:
 Postman (API testing)
 Git & GitHub (version control)
 
