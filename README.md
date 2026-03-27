@@ -28,7 +28,7 @@ https://drive.google.com/file/d/132dC2QZUI6BV5VM92i99i5hwf-ZC0jFS/view?usp=shari
 ![App Screenshot](https://github.com/RiwajRai2021/Food_Delivery_App_Central_Repo/blob/main/Screenshot%202026-03-26%20004002.png)
 <br><br>
 
-# 📑 Table of Contents
+📑 Table of Contents
 
 - [Tech Stack](#tech-stack)
 - [Architecture](#architecture)
@@ -40,6 +40,7 @@ https://drive.google.com/file/d/132dC2QZUI6BV5VM92i99i5hwf-ZC0jFS/view?usp=shari
 - [Environment Variables Setup](#environment-variables-setup)
 - [Contributing](#contributing)
 - [License](#license)
+
 
 # 🚀 <b>Quick Start Guide</b>   
 Get the Food Delivery App running locally in just a few minutes! <br>
