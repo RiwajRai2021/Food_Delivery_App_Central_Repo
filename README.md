@@ -41,7 +41,7 @@ https://drive.google.com/file/d/132dC2QZUI6BV5VM92i99i5hwf-ZC0jFS/view?usp=shari
 - [Contributing](#contributing)
 - [License](#license)
 
-🚀Quick Start Guide   
+# 🚀 Quick Start Guide   
 Get the Food Delivery App running locally in just a few minutes!
 
 Prerequisites
