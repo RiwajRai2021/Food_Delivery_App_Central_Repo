@@ -109,7 +109,7 @@ REST API Communication
 MySQL
 MongoDB
 
-</b>Containerization</b>:
+<b>Containerization</b>:
 Docker
 Docker Images for each microservice
 
