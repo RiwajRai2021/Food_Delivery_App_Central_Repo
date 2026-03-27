@@ -44,7 +44,7 @@ https://drive.google.com/file/d/132dC2QZUI6BV5VM92i99i5hwf-ZC0jFS/view?usp=shari
 # 🚀 <b>Quick Start Guide</b>   
 Get the Food Delivery App running locally in just a few minutes! <br>
 
-<b>Prerequisites</b><br>
+<b>Prerequisites</b><br><br>
 Java 17+  
 Node.js & Angular CLI  
 MySQL  
