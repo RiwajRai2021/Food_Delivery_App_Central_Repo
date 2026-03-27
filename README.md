@@ -117,11 +117,8 @@ Docker Images for each microservice
 Jenkins (Build and Deployment Automation)
 
 <b>Cloud Infrastructure</b>:
-AWS ECR (Container Registry)
-AWS EKS (Kubernetes Cluster)
 AWS EC2 (Compute)
 AWS RDS (MySQL Database)
-AWS S3 (Static Storage)
 
 <b>Build Tools</b>:
 Maven
