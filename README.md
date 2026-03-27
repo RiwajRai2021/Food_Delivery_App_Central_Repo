@@ -42,6 +42,7 @@ https://drive.google.com/file/d/132dC2QZUI6BV5VM92i99i5hwf-ZC0jFS/view?usp=shari
 - [License](#license)
 
 
+
 # 🚀 <b>Quick Start Guide</b>   
 Get the Food Delivery App running locally in just a few minutes! <br>
 
@@ -87,7 +88,8 @@ cp Food-Delivery-App-FE/.env.example Food-Delivery-App-FE/.env
 <b>Restaurant Service</b>:http://localhost:9091<br>
 <b>Food Catalogue Service</b>:http://localhost:9092
 <br>
-# ⚙️Tech Stack<br>
+# Tech Stack ⚙️
+<br>
 
 <b>Frontend</b>:
 Angular
