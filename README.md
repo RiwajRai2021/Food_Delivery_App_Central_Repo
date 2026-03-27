@@ -93,20 +93,20 @@ cp Food-Delivery-App-FE/.env.example Food-Delivery-App-FE/.env
 <br>
 
 <b>Frontend</b>:
-Angular
-TypeScript
+Angular,
+TypeScript,
 HTML/CSS
 
 <b>Backend Microservices</b>:
-Java
-Spring Boot
-Spring Web
-Spring Data JPA
-Spring Cloud Netflix Eureka
+Java,
+Spring Boot,
+Spring Web,
+Spring Data JPA,
+Spring Cloud Netflix Eureka,
 
 <b>Architecture</b>:
-Microservices Architecture
-Service Discovery (Eureka Server)
+Microservices Architecture,
+Service Discovery (Eureka Server),
 REST API Communication
 
 <b>Database</b>:
@@ -121,7 +121,7 @@ Docker Images for each microservice
 Jenkins (Build and Deployment Automation)
 
 <b>Cloud Infrastructure</b>:
-AWS EC2 (Compute)
+AWS EC2 (Compute),
 AWS RDS (MySQL Database)
 
 <b>Build Tools</b>:
