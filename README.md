@@ -78,7 +78,7 @@ cp Eureka_FD/.env.example Eureka_FD/.env
 <b>Frontend (if using .env)</b><br>
 cp Food-Delivery-App-FE/.env.example Food-Delivery-App-FE/.env
 
-#🌐 Access the application<br>
+#🌐<b>Access the application</b><br>
 <b>Frontend</b>: http://localhost:4200<br>
 <b>Eureka Dashboard</b>:http://localhost:8761<br>
 <b>User Info Service</b>:http://localhost:9093<br>
