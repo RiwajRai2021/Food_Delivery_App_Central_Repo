@@ -106,7 +106,7 @@ Service Discovery (Eureka Server)
 REST API Communication
 
 <b>Database</b>:
-MySQL
+MySQL,
 MongoDB
 
 <b>Containerization</b>:
