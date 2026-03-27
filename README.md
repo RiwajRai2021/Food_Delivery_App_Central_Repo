@@ -45,7 +45,7 @@ https://drive.google.com/file/d/132dC2QZUI6BV5VM92i99i5hwf-ZC0jFS/view?usp=shari
 Get your Food Delivery App running locally in just a few minutes!
 
 <br>
-🔧 Prerequisites
+🔧 <b>Prerequisites</b><br>
 Make sure the following are installed on your machine:
 
 Java 17+
@@ -57,7 +57,7 @@ MySQL
 Git
 
 <br>
-📥 Clone All Repositories
+📥 <b>Clone All Repositories</b><br>
 git clone https://github.com/RiwajRai2021/Food_Delivery_App_Central_Repo.git
 git clone https://github.com/RiwajRai2021/Order_Repository.git
 git clone https://github.com/RiwajRai2021/RestaurantListing_Repository.git
