@@ -88,7 +88,7 @@ cp Food-Delivery-App-FE/.env.example Food-Delivery-App-FE/.env
 <br>
 # ⚙️Tech Stack<br>
 
-Frontend:
+<b>Frontend</b>:
 Angular
 TypeScript
 HTML/CSS
