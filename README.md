@@ -59,6 +59,26 @@ git clone https://github.com/RiwajRai2021/Eureka_FD.git<br>
 git clone https://github.com/RiwajRai2021/Food-Catalogue.git<br>
 git clone https://github.com/RiwajRai2021/Food-Delivery-App-FE.git<br>
 
+# 🌱<b> Set up Environment Variables</b><br>
+# User Info Service
+cp UserInfo_Repository/.env.example UserInfo_Repository/.env
+
+# Order Service
+cp Order_Repository/.env.example Order_Repository/.env
+
+# Restaurant Listing Service
+cp RestaurantListing_Repository/.env.example RestaurantListing_Repository/.env
+
+# Food Catalogue Service
+cp Food-Catalogue/.env.example Food-Catalogue/.env
+
+# Eureka Server (if applicable)
+cp Eureka_FD/.env.example Eureka_FD/.env
+
+# Frontend (if using .env)
+cp Food-Delivery-App-FE/.env.example Food-Delivery-App-FE/.env
+
+
 
 
 
