@@ -46,14 +46,9 @@ Get your Food Delivery App running locally in just a few minutes!
 
 <br>
 🔧 <b>Prerequisites</b><br>
-Make sure the following are installed on your machine:
-
 Java 17+
-
 Node.js & Angular CLI
-
 MySQL
-
 Git
 
 <br>
