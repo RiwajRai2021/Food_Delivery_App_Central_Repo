@@ -130,7 +130,7 @@ Postman (API testing),
 Git & GitHub (version control)
 <br>
 
-## 🏗️ Project Architecture
+## 🏗️Architecture
 
 ![Architecture Diagram](https://github.com/RiwajRai2021/Food_Delivery_App_Central_Repo/blob/main/FoodDeliveryApp_Project_Architecture.png)
 
