@@ -158,7 +158,7 @@ The Order Service saves the order in its database with all relevant details, inc
 7. <b>Returning Order Confirmation</b>
 The Order Service responds to the frontend with the order ID, status, and summary. The frontend displays a confirmation message to the customer.
 
-⭐ <h2><b>Cloud Deployment Flow</h2></b>
+ <h2>⭐<b>Cloud Deployment Flow</h2></b>
 8. <b>Code Push and CI Pipeline</b>
 When code is pushed to GitHub, a webhook triggers Jenkins. Jenkins pulls the latest code, runs the Maven build, executes tests, builds a Docker image, and pushes it to Docker Hub or AWS ECR.
 
