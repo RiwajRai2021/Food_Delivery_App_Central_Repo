@@ -31,15 +31,15 @@ https://drive.google.com/file/d/132dC2QZUI6BV5VM92i99i5hwf-ZC0jFS/view?usp=shari
 
 - [Tech Stack](#tech-stack)
 - [Architecture](#architecture)
-- [Data Flow Diagram](#data-flow-diagram)
+- [Project Data‑Flow](#project-data-flow)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Clone the Repository](#clone-the-repository)
   - [Set Up Environment Variables](#set-up-environment-variables)
 - [Environment Variables Setup](#environment-variables-setup)
-- [Project Data‑Flow](#project-data-flow)
 - [Cloud Deployment Flow](#cloud-deployment-flow)
 - [Testing](#testing)
+
   <br>
 
 # 🚀 <b>Quick Start Guide</b>   
