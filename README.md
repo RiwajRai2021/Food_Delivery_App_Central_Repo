@@ -135,7 +135,9 @@ Git & GitHub (version control)
 ![Architecture Diagram](https://github.com/RiwajRai2021/Food_Delivery_App_Central_Repo/blob/main/FoodDeliveryApp_Project_Architecture.png)
 
 <br>
-<h2>⭐ <b>Project Data‑Flow</b></h2>
+
+## ⭐ <b>Project Data‑Flow</b>
+
 
 1. <b>User and Admin Login</b><br>
 The frontend sends a login request with email and password. Spring Security authenticates the credentials and returns a JWT token. Users and admins receive different permissions: users can browse and order food, while admins can add and manage restaurants.
@@ -165,7 +167,7 @@ The Order Service saves the order in its database with all relevant details, inc
 The Order Service responds to the frontend with the order ID, status, and summary. The frontend displays a confirmation message to the customer.
 <br><br>
 
-<h2>⭐ <b>Cloud Deployment Flow</b></h2>
+## ⭐ <b>Cloud Deployment Flow</b>
 
 8. <b>Code Push and CI Pipeline</b><br>
 When code is pushed to GitHub, a webhook triggers Jenkins. Jenkins pulls the latest code, runs the Maven build, executes tests, builds a Docker image, and pushes it to Docker Hub or AWS ECR.
