@@ -136,7 +136,7 @@ Git & GitHub (version control)
 ![Architecture Diagram](https://github.com/RiwajRai2021/Food_Delivery_App_Central_Repo/blob/main/FoodDeliveryApp_Project_Architecture.png)
 
 <br>
-⭐ <h2><b>Project Data‑Flow</b></h2>
+<h2>⭐ <b>Project Data‑Flow</b></h2>
 1. <b>User and Admin Login</b>
 The frontend sends a login request with email and password. Spring Security authenticates the credentials and returns a JWT token. Users and admins receive different permissions: users can browse and order food, while admins can add and manage restaurants.
 
