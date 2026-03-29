@@ -135,6 +135,40 @@ Git & GitHub (version control)
 
 ![Architecture Diagram](https://github.com/RiwajRai2021/Food_Delivery_App_Central_Repo/blob/main/FoodDeliveryApp_Project_Architecture.png)
 
+<br>
+⭐ Project Data‑Flow 
+1. User and Admin Login  
+The frontend sends a login request with email and password. Spring Security authenticates the credentials and returns a JWT token. Users and admins receive different permissions: users can browse and order food, while admins can add and manage restaurants.
+
+2. Restaurant Management (Admin Only)  
+When an admin adds a restaurant, the frontend sends a secured POST request to the Restaurant Service. Spring Security verifies the admin role, and the service stores the restaurant details in its database.
+
+3. Browsing Restaurants and Menu Items  
+Customers browse available restaurants and food items through the frontend. The frontend makes synchronous GET requests to the Restaurant Service and Food Catalogue Service, which return the required data from their respective databases.
+
+4. Placing an Order  
+When a customer places an order, the frontend sends a POST request to the Order Service with the selected items, restaurant information, and total price. The JWT token is included for authentication.
+
+5. Fetching User Details  
+The Order Service calls the User Service to retrieve the customer’s profile information (first name, last name, email). This ensures the order record is complete and accurate.
+
+6. Storing the Order  
+The Order Service saves the order in its database with all relevant details, including items, user information, restaurant, total price, timestamp, and an initial status of “Placed.”
+
+7. Returning Order Confirmation  
+The Order Service responds to the frontend with the order ID, status, and summary. The frontend displays a confirmation message to the customer.
+
+⭐ Cloud Deployment Flow 
+8. Code Push and CI Pipeline  
+When code is pushed to GitHub, a webhook triggers Jenkins. Jenkins pulls the latest code, runs the Maven build, executes tests, builds a Docker image, and pushes it to Docker Hub or AWS ECR.
+
+9. Deployment to AWS  
+You manually deploy the application to AWS. EC2 instances host your microservices, and RDS stores your relational data. Jenkins runs on its own EC2 instance, and security groups and IAM roles control access across the environment.
+
+10. Testing on the Cloud  
+Once deployed, you test the application using the EC2 public IP or load balancer. You verify login, admin features, restaurant browsing, and order placement. You also confirm that order and restaurant data are correctly stored in RDS.
+
+
 
 
 
