@@ -135,8 +135,8 @@ Git & GitHub (version control)
 ![Architecture Diagram](https://github.com/RiwajRai2021/Food_Delivery_App_Central_Repo/blob/main/FoodDeliveryApp_Project_Architecture.png)
 
 <br>
+## ⭐ Project Data‑Flow
 
-## ⭐ <b>Project Data‑Flow</b>
 
 
 1. <b>User and Admin Login</b><br>
