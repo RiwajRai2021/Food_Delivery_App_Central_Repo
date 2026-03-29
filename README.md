@@ -140,32 +140,32 @@ Git & GitHub (version control)
 1. <b>User and Admin Login</b>
 The frontend sends a login request with email and password. Spring Security authenticates the credentials and returns a JWT token. Users and admins receive different permissions: users can browse and order food, while admins can add and manage restaurants.
 
-2. Restaurant Management (Admin Only)
+2. <b>Restaurant Management</b> (Admin Only)
 When an admin adds a restaurant, the frontend sends a secured POST request to the Restaurant Service. Spring Security verifies the admin role, and the service stores the restaurant details in its database.
 
-3. Browsing Restaurants and Menu Items
+3. <b>Browsing Restaurants and Menu Items</b>
 Customers browse available restaurants and food items through the frontend. The frontend makes synchronous GET requests to the Restaurant Service and Food Catalogue Service, which return the required data from their respective databases.
 
-4. Placing an Order
+4. <b>Placing an Order</b>
 When a customer places an order, the frontend sends a POST request to the Order Service with the selected items, restaurant information, and total price. The JWT token is included for authentication.
 
-5. Fetching User Details
+5. <b>Fetching User Details</b>
 The Order Service calls the User Service to retrieve the customer’s profile information (first name, last name, email). This ensures the order record is complete and accurate.
 
-6. Storing the Order
+6. <b>Storing the Order</b>
 The Order Service saves the order in its database with all relevant details, including items, user information, restaurant, total price, timestamp, and an initial status of “Placed.”
 
-7. Returning Order Confirmation
+7. <b>Returning Order Confirmation</b>
 The Order Service responds to the frontend with the order ID, status, and summary. The frontend displays a confirmation message to the customer.
 
-⭐ Cloud Deployment Flow
-8. Code Push and CI Pipeline
+⭐ <h2><b>Cloud Deployment Flow</h2></b>
+8. <b>Code Push and CI Pipeline</b>
 When code is pushed to GitHub, a webhook triggers Jenkins. Jenkins pulls the latest code, runs the Maven build, executes tests, builds a Docker image, and pushes it to Docker Hub or AWS ECR.
 
-9. Deployment to AWS
+9. <b>Deployment to AWS</b>
 You manually deploy the application to AWS. EC2 instances host your microservices, and RDS stores your relational data. Jenkins runs on its own EC2 instance, and security groups and IAM roles control access across the environment.
 
-10. Testing on the Cloud
+10. <b>Testing on the Cloud</b>
 Once deployed, you test the application using the EC2 public IP or load balancer. You verify login, admin features, restaurant browsing, and order placement. You also confirm that order and restaurant data are correctly stored in RDS.
 
 
