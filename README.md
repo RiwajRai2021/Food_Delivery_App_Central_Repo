@@ -176,10 +176,6 @@ When code is pushed to GitHub, a webhook triggers Jenkins. Jenkins pulls the lat
 You manually deploy the application to AWS. EC2 instances host your microservices, and RDS stores your relational data. Jenkins runs on its own EC2 instance, and security groups and IAM roles control access across the environment.
 <br><br>
 
-10. <b>Testing on the Cloud</b><br>
-Once deployed, you test the application using the EC2 public IP or load balancer. You verify login, admin features, restaurant browsing, and order placement. You also confirm that order and restaurant data are correctly stored in RDS.
-<br><br>
-
 
 
 
