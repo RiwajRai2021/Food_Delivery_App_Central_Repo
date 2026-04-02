@@ -191,8 +191,17 @@ When code is pushed to GitHub, a webhook triggers Jenkins. Jenkins pulls the lat
 You manually deploy the application to AWS. EC2 instances host your microservices, and RDS stores your relational data. Jenkins runs on its own EC2 instance, and security groups and IAM roles control access across the environment.
 <br><br>
 
+10. <b>RDS Database Migration and Cloud Integration</b><br>
+Your relational data is stored in AWS RDS (MySQL). Local database files are exported from your development environment and imported into the RDS instance using the AWS-provided connection endpoint. This ensures that all microservices—User Service, Order Service, Restaurant Service, and Food Catalogue Service—connect to a centralized, cloud‑hosted MySQL database. The RDS instance provides automated backups, multi‑AZ availability, and managed storage, ensuring reliability and durability for production data.
+<br><br>
 
+11. <b>Kubernetes Deployment on Amazon EKS</b><br>
+Your microservices are deployed and orchestrated using Amazon EKS (Elastic Kubernetes Service). Kubernetes manifests (Deployments, Services, ConfigMaps, Secrets) are applied using kubectl apply -f ., which creates or updates pods and services inside the EKS cluster. The cluster manages container scheduling, scaling, and load balancing across worker nodes. This allows your application to run in a highly available, container‑orchestrated environment with automated rollouts, self‑healing pods, and efficient resource utilization.
+<br><br>
 
+12. <b>SonarQube Code Quality Integration</b><br>
+SonarQube is integrated into your CI pipeline to enforce code quality and maintain clean, maintainable microservices. During the Jenkins build, the Maven Sonar plugin sends code metrics, test coverage, and static analysis results to the SonarQube server running on an EC2 instance. Quality gates ensure that code must meet defined standards before it can be deployed. This adds an additional layer of reliability and consistency to your development workflow.
+<br><br>
 
 
 
