@@ -16,8 +16,6 @@ https://github.com/RiwajRai2021/Food-Delivery-App-FE.git
 <br><br>
 
 <h1>Food Delivery App</h1>
-<h3>Build Status: Deployment Ready</h3>
-
 The Food Delivery App is a full‑stack platform that allows users to browse restaurants, explore menus, add items to cart, and place orders. The system includes secure authentication for both customers and admins, with admins able to manage restaurant listings and menu data. The application is containerized with Docker, automated with Jenkins CI/CD, and deployed on AWS for scalable cloud hosting.
 
 **Scope: Solo project – Designed and developed full frontend and backend**
@@ -121,12 +119,20 @@ MongoDB
 Docker,
 Docker Images for each microservice
 
+<b>Orchestration</b>
+Kubernetes
+Amazon EKS(Elastic Kubernetes Service)
+
 <b>CI/CD</b>:
 Jenkins (Build and Deployment Automation)
+
+<b>Quality & Code Analysis</b>
+SonarQube(Static Code Analysis and Quality Gates) 
 
 <b>Cloud Infrastructure</b>:
 AWS EC2 (Compute),
 AWS RDS (MySQL Database)
+AWS EKS (Kubernetes Cluster)
 
 <b>Build Tools</b>:
 Maven,
