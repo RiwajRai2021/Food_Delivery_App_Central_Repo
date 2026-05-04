@@ -20,7 +20,7 @@ The Food Delivery App is a full‑stack platform that allows users to browse res
 
 **Scope: Solo project – Designed and developed full frontend and backend**
 
-🎥 Demo Video ( click here) 
+🎥 Demo Video (click here -->) 
 https://drive.google.com/file/d/132dC2QZUI6BV5VM92i99i5hwf-ZC0jFS/view?usp=sharing 
 
 
