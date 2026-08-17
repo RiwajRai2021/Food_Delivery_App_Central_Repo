@@ -203,6 +203,19 @@ Your microservices are deployed and orchestrated using Amazon EKS (Elastic Kuber
 SonarQube is integrated into your CI pipeline to enforce code quality and maintain clean, maintainable microservices. During the Jenkins build, the Maven Sonar plugin sends code metrics, test coverage, and static analysis results to the SonarQube server running on an EC2 instance. Quality gates ensure that code must meet defined standards before it can be deployed. This adds an additional layer of reliability and consistency to your development workflow.
 <br><br>
 
+🧪 Testing
+
+Testing across the Food Delivery App covers unit tests for service-layer business logic, controller-level tests for REST endpoints, and manual API testing via Postman. Static code quality and test coverage are also enforced through SonarQube as part of the CI pipeline.
+
+Testing Approach by Service
+
+Service	Test Type	Tools
+Order Service	Unit + Controller tests	JUnit 5, Mockito, MockMvc
+Restaurant Listing Service	Unit tests	JUnit 5, Mockito
+User Info Service	Unit tests (auth logic)	JUnit 5, Mockito
+Food Catalogue Service	Unit tests	JUnit 5, Mockito
+All backend services	Static analysis & coverage	SonarQube (via Jenkins pipeline)
+REST APIs (all services)	Manual/exploratory testing	Postman
 
 
 
