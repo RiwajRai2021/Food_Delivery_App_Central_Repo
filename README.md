@@ -16,7 +16,7 @@ https://github.com/RiwajRai2021/Food-Delivery-App-FE.git
 <br><br>
 
 <h1>Food Delivery App</h1>
-The Food Delivery App is a full‑stack platform that allows users to browse restaurants, explore menus, add items to cart, and place orders. The system includes secure authentication for both customers and admins, with admins able to manage restaurant listings and menu data. The application is containerized with Docker, automated with Jenkins CI/CD, and deployed on AWS for scalable cloud hosting.
+The Food Delivery App is a full‑stack platform that allows users to browse restaurants, explore menus, add items to cart, and place orders. The system includes secure authentication for both customers and admins, with admins able to manage restaurant listings and menu data. The application is containerized with Docker, automated with Jenkins CI/CD, and deployed on AWS for scalable cloud hosting. GitHub Copilot was used to assist with testing tasks throughout development, with all generated code reviewed and validated manually.
 
 **Scope: Solo project – Designed and developed full frontend and backend**
 
