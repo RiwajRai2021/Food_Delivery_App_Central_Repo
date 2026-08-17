@@ -129,6 +129,9 @@ Jenkins (Build and Deployment Automation)
 <b>Quality & Code Analysis</b>
 SonarQube(Static Code Analysis and Quality Gates) 
 
+<b>AI-Assisted Development</b> 
+Github Copilot (Unit Testing, Test Case Generation) 
+
 <b>Cloud Infrastructure</b>:
 AWS EC2 (Compute),
 AWS RDS (MySQL Database)
