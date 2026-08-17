@@ -219,8 +219,30 @@ Testing Approach by Service
 | REST APIs (all services)     | Manual/exploratory testing    | Postman                             |
 
 
+🤖 AI-Assisted Testing (GitHub Copilot)
 
+GitHub Copilot was used to accelerate writing unit tests, especially for scaffolding mocks and generating edge-case scenarios. All AI-generated code was reviewed, corrected, and extended manually before being committed.
 
+Example — Order Service (OrderServiceImpl.createOrder())
+
+Used Copilot to scaffold JUnit 5 + Mockito tests covering the core order-creation flow.
+
+Prompt used:
+
+"Generate JUnit 5 tests for createOrder() using Mockito to mock OrderRepository and UserServiceClient. Cover: successful order creation, user-not-found exception, and empty cart validation."
+
+What Copilot generated:
+
+Initial test class with @ExtendWith(MockitoExtension.class) setup
+Mocked OrderRepository and UserServiceClient
+Three starter test methods (happy path, user-not-found, empty cart)
+
+What I reviewed and changed:
+
+Fixed the mock setup for the Feign client call to the User Info Service (Copilot's initial mock didn't match the actual client interface)
+Added a missing test case for "restaurant not found," which Copilot didn't include
+Corrected an assertion that checked against the wrong OrderStatus enum value
+Verified all mocked responses matched the real DTO structure used in the service
 
 
 
