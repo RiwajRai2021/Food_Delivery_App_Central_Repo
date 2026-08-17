@@ -203,7 +203,7 @@ Your microservices are deployed and orchestrated using Amazon EKS (Elastic Kuber
 SonarQube is integrated into your CI pipeline to enforce code quality and maintain clean, maintainable microservices. During the Jenkins build, the Maven Sonar plugin sends code metrics, test coverage, and static analysis results to the SonarQube server running on an EC2 instance. Quality gates ensure that code must meet defined standards before it can be deployed. This adds an additional layer of reliability and consistency to your development workflow.
 <br><br>
 
-🧪 Testing
+# 🧪  <b>Testing</b>   
 
 Testing across the Food Delivery App covers unit tests for service-layer business logic, controller-level tests for REST endpoints, and manual API testing via Postman. Static code quality and test coverage are also enforced through SonarQube as part of the CI pipeline.
 
@@ -219,7 +219,7 @@ Testing Approach by Service
 | REST APIs (all services)     | Manual/exploratory testing    | Postman                             |
 
 
-🤖 AI-Assisted Testing (GitHub Copilot)
+🤖 <b>AI-Assisted Testing</b> (GitHub Copilot)
 
 GitHub Copilot was used to accelerate writing unit tests, especially for scaffolding mocks and generating edge-case scenarios. All AI-generated code was reviewed, corrected, and extended manually before being committed.
 
@@ -227,17 +227,17 @@ Example — Order Service (OrderServiceImpl.createOrder())
 
 Used Copilot to scaffold JUnit 5 + Mockito tests covering the core order-creation flow.
 
-Prompt used:
+<b>Prompt used:</b>
 
 "Generate JUnit 5 tests for createOrder() using Mockito to mock OrderRepository and UserServiceClient. Cover: successful order creation, user-not-found exception, and empty cart validation."
 
-What Copilot generated:
+<b>What Copilot generated:</b>
 
 Initial test class with @ExtendWith(MockitoExtension.class) setup
 Mocked OrderRepository and UserServiceClient
 Three starter test methods (happy path, user-not-found, empty cart)
 
-What I reviewed and changed:
+<b>What I reviewed and changed:</b>
 
 Fixed the mock setup for the Feign client call to the User Info Service (Copilot's initial mock didn't match the actual client interface)
 Added a missing test case for "restaurant not found," which Copilot didn't include
