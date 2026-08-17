@@ -209,15 +209,14 @@ Testing across the Food Delivery App covers unit tests for service-layer busines
 
 Testing Approach by Service
 
-Service	                  Test Type	                Tools
-
-Order Service             Unit + Controller tests 	  JUnit 5, Mockito, MockMvc
-Restaurant 
-Listing Service	          Unit tests	                JUnit 5, Mockito
-User Info Service 	      Unit tests (auth logic)	    JUnit 5, Mockito
-Food Catalogue Service    Unit tests	                JUnit 5, Mockito
-All backend services	    Static analysis & coverage	SonarQube (via Jenkins pipeline)
-REST APIs (all services)	Manual/exploratory testing	Postman
+| Service                      | Test Type                     | Tools                               |
+|----------------------------- |-------------------------------|-------------------------------------|
+| Order Service                | Unit + Controller tests       | JUnit 5, Mockito, MockMvc           |
+| Restaurant Listing Service   | Unit tests                    | JUnit 5, Mockito                    |
+| User Info Service            | Unit tests (auth logic)       | JUnit 5, Mockito                    |
+| Food Catalogue Service       | Unit tests                    | JUnit 5, Mockito                    |
+| All backend services         | Static analysis & coverage    | SonarQube (via Jenkins pipeline)    |
+| REST APIs (all services)     | Manual/exploratory testing    | Postman                             |
 
 
 
